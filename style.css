@@ -36,14 +36,11 @@ body2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    align-items: center;
-    text-align: center;
-}
-
-.container{
     height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container__botao{
@@ -200,7 +197,6 @@ form{
    height: 450px;
    padding: 40px;
    border-radius: 20px;
-   
 }
 
 form h1{
